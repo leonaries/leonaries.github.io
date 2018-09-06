@@ -157,7 +157,7 @@ var canAnimateTurtleInformation;
 var isTurtleStillAnimating = false;
 var turtleAnimateNumber = 0;
 var numberOfTurtleInEachRowArray = new Array();
-numberOfTurtleInEachRowArray.push(5, 1, 4, 2);
+numberOfTurtleInEachRowArray.push(5, 3, 2, 4);
 
 var pageVerticalPosition = 0;
 var pageVerticalPositionOnTouch = 0;

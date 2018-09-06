@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="772e75c3-dc44-4a34-9191-caaa9714e732" name="默认的" comment="">
-      <change beforePath="$PROJECT_DIR$/leon_files/LOGO.png" afterPath="$PROJECT_DIR$/leon_files/LOGO.png" />
+      <change beforePath="$PROJECT_DIR$/resume/index.html" afterPath="$PROJECT_DIR$/resume/index.html" />
+      <change beforePath="$PROJECT_DIR$/resume/script/main.js" afterPath="$PROJECT_DIR$/resume/script/main.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,8 +20,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+            <state relative-caret-position="444">
+              <caret line="24" column="14" lean-forward="true" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
               <folding>
                 <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -28,11 +29,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Seffects.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resume/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="404">
+              <caret line="523" column="18" lean-forward="true" selection-start-line="523" selection-start-column="18" selection-end-line="523" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resume/script/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="279">
+              <caret line="159" column="46" lean-forward="true" selection-start-line="159" selection-start-column="46" selection-end-line="159" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Seffects.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leon_files/Seffects.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-9250">
-              <caret line="92" column="33" lean-forward="true" selection-start-line="92" selection-start-column="33" selection-end-line="92" selection-end-column="33" />
+            <state relative-caret-position="279">
+              <caret line="539" column="51" lean-forward="false" selection-start-line="539" selection-start-column="50" selection-end-line="539" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -42,11 +63,13 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>2016</find>
       <find>canvas</find>
       <find>video</find>
       <find>座右铭</find>
       <find>sUserAgent</find>
+      <find>2016</find>
+      <find>turtle-text-container</find>
+      <find>push</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -60,6 +83,7 @@
       <list>
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/resume/index.html" />
+        <option value="$PROJECT_DIR$/resume/script/main.js" />
       </list>
     </option>
   </component>
@@ -109,6 +133,12 @@
               <item name="leonaries" type="462c0819:PsiDirectoryNode" />
               <item name="resume" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="leonaries" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leonaries" type="462c0819:PsiDirectoryNode" />
+              <item name="resume" type="462c0819:PsiDirectoryNode" />
+              <item name="script" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -151,12 +181,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1536202386303</updated>
-      <workItem from="1536202387841" duration="4637000" />
+      <workItem from="1536202387841" duration="5657000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4637000" />
+    <option name="totallyTimeSpent" value="5657000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -210,18 +240,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resume/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="15" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        <state relative-caret-position="444">
+          <caret line="24" column="14" lean-forward="true" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
           <folding>
             <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -230,8 +252,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/leon_files/Seffects.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9250">
-          <caret line="92" column="33" lean-forward="true" selection-start-line="92" selection-start-column="33" selection-end-line="92" selection-end-column="33" />
+        <state relative-caret-position="279">
+          <caret line="539" column="51" lean-forward="false" selection-start-line="539" selection-start-column="50" selection-end-line="539" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resume/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="2450" column="1" lean-forward="false" selection-start-line="2450" selection-start-column="1" selection-end-line="2450" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resume/script/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="159" column="46" lean-forward="true" selection-start-line="159" selection-start-column="46" selection-end-line="159" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resume/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="523" column="18" lean-forward="true" selection-start-line="523" selection-start-column="18" selection-end-line="523" selection-end-column="18" />
           <folding />
         </state>
       </provider>

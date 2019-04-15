@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="772e75c3-dc44-4a34-9191-caaa9714e732" name="默认的" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resume/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/resume/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -15,11 +14,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leon_files/Seffects.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-389">
+            <state relative-caret-position="8085">
               <caret line="539" column="51" selection-start-line="539" selection-start-column="50" selection-end-line="539" selection-end-column="51" />
             </state>
           </provider>
@@ -40,8 +39,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resume/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="776" column="50" lean-forward="true" selection-start-line="776" selection-start-column="50" selection-end-line="776" selection-end-column="50" />
+            <state relative-caret-position="324">
+              <caret line="706" column="43" lean-forward="true" selection-start-line="706" selection-start-column="43" selection-end-line="706" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -136,17 +135,18 @@
       <workItem from="1552398892547" duration="50000" />
       <workItem from="1552398958866" duration="48000" />
       <workItem from="1552399016740" duration="109000" />
+      <workItem from="1555347141273" duration="63000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5899000" />
+    <option name="totallyTimeSpent" value="5962000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="792" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.013389711" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13389711" />
       <window_info id="Structure" order="1" weight="0.24947146" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -198,7 +198,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/leon_files/Seffects.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-389">
+        <state relative-caret-position="8085">
           <caret line="539" column="51" selection-start-line="539" selection-start-column="50" selection-end-line="539" selection-end-column="51" />
         </state>
       </provider>
@@ -215,8 +215,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resume/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="776" column="50" lean-forward="true" selection-start-line="776" selection-start-column="50" selection-end-line="776" selection-end-column="50" />
+        <state relative-caret-position="324">
+          <caret line="706" column="43" lean-forward="true" selection-start-line="706" selection-start-column="43" selection-end-line="706" selection-end-column="43" />
         </state>
       </provider>
     </entry>

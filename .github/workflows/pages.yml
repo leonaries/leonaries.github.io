@@ -26,6 +26,8 @@ jobs:
       - run: npm ci
       - name: Build
         run: npm run docs:build
+      - name: Copy CNAME
+        run: cp docs/.vuepress/public/CNAME docs/.vuepress/dist/
       - uses: actions/upload-pages-artifact@v1
         with:
           path: docs/.vuepress/dist

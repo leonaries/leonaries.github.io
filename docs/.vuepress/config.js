@@ -75,4 +75,5 @@ export default defineUserConfig({
       },
     }),
   ],
+  base: '/',
 })

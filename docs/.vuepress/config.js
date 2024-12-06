@@ -5,14 +5,14 @@ import { viteBundler } from '@vuepress/bundler-vite'
 
 export default defineUserConfig({
   lang: 'zh-CN',
-  title: 'AI Journey',
-  description: '记录我的AI学习与探索之旅',
+  title: 'AI 猫叔',
+  description: '记录AI学习与探索之旅',
   
   // 指定打包工具
   bundler: viteBundler(),
   
   theme: defaultTheme({
-    logo: '/images/logo.svg',
+    logo: '/images/uncle-cat-1.png',
     navbar: [
       {
         text: '首页',

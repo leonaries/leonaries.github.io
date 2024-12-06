@@ -1,7 +1,7 @@
 {
-  "name": "ai-journey",
+  "name": "ai-maoshu",
   "version": "1.0.0",
-  "description": "AI Journey Blog",
+  "description": "AI 猫叔的技术博客",
   "main": "index.js",
   "scripts": {
     "docs:dev": "vuepress dev docs",

@@ -1,7 +1,7 @@
 ---
 home: true
-heroImage: /images/hero.svg
-heroText: AI Journey
+heroImage: /images/uncle-cat-1.png
+heroText: AI 猫叔
 tagline: 探索AI的无限可能
 actions:
   - text: 开始阅读 →

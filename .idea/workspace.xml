@@ -1,225 +1,112 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="74cc0cb5-7a67-4f29-a36f-aaff32e7f130" name="默认" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/leonaries.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CNAME" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tap/css/mikutap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tap/data/main/main.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tap/data/track/track.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tap/icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tap/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tap/js/mikutap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tap/shared/css/common-1.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tap/shared/css/index-1.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tap/shared/js/common-2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tap/shared/sp/css/common.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/leon_files/LOGO.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/leon_files/Location.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/leon_files/Seffects.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/leon_files/leon.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/font/frankfurter-plain.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/font/lobster-1.4.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/font/lobster-1.4.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/font/poster-sans-bold.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/9527.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/algae-a.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/algae-b.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/alien-body.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/alien-ship.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/alien-steer.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/balloon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/banner-bottom-a.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/banner-bottom-b.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/banner-button.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/banner-top-a.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/banner-top-b.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/box.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/bubble.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/building-a-leg-frame.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/building-a.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/building-b-leg-frame.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/building-b.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/building-c.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/chain-block-string.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/chain-block.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/cloud.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/contact-box-hole-a.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/contact-box-hole-b.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/contact-box.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/contact-button.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/contact-cloud-bottom.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/contact-cloud-top.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/contact-confirmation-triangle.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/coral-a.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/coral-b.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/coral-big-a.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/coral-big-b.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/crab-eyes.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/crab.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/crane.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/dock-column.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/dock-floor.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/enemy-face-a-eyes.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/enemy-face-a.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/enemy-face-b-eyes.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/enemy-face-b.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/fish-eyes.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/fish.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/floor.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/gate.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/grass.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/ground.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/hangar-window.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/mountain.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/nba-ball.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/nba-board-blue.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/nba-board-red.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/nba-player.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/nba-rim.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/panel.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/piechart-back.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/piechart-foxnews-front.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/plant-head-leaves.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/plant-ribbon-left.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/plant-ribbon-right.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/preloader-banner-left.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/preloader-banner-right.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/preloader-dots-animation.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/preloader-dots-static.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/qzone.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/ribbon-left.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/ribbon-right.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/robby-eyes-close.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/robby-slides.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/robot-body.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/robot-hand-a.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/robot-hand-b.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/robot-hand-c.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/robot-hand-d.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/sea-ribbon-left.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/sea-ribbon-right.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/sea-wave.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/social-bottom.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/social-facebook.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/social-top.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/social-twitter.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/squid-body.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/squid-hand-close-a.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/squid-hand-close-b.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/squid-hand-close-c.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/squid-hand-close-d.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/squid-hand-open-a.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/squid-hand-open-b.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/squid-hand-open-c.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/squid-hand-open-d.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/title-about.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/title-awards-and.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/title-contact.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/title-experience.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/title-publication.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/title-robby.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/title-skills.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/tree-bright-a.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/tree-bright-b.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/tree-bright-d.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/tree-bright-e.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/tree-dark-a.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/tree-dark-b.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/tree-dark-c.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/tree-dark-d.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/tsina.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/turtle-eyes.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/turtle.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/waterfall-a.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/image/waterfall-b.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/mario.mp3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/script/analytics.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/script/container-transparent-or-displaynone.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/script/detect-browser-device.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/script/email.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/script/ga.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/script/jquery-1.9.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/script/jquery-ui-1.10.2.custom.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/script/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/script/preloader-transparent-or-displaynone.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resume/script/preloader.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    <list default="true" id="772e75c3-dc44-4a34-9191-caaa9714e732" name="默认的" comment="">
+      <change beforePath="$PROJECT_DIR$/resume/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/resume/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/leon_files/Seffects.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="8085">
+              <caret line="539" column="51" selection-start-line="539" selection-start-column="50" selection-end-line="539" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="49" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="49" />
+              <folding>
+                <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resume/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="706" column="43" lean-forward="true" selection-start-line="706" selection-start-column="43" selection-end-line="706" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>canvas</find>
+      <find>video</find>
+      <find>座右铭</find>
+      <find>sUserAgent</find>
+      <find>2016</find>
+      <find>turtle-text-container</find>
+      <find>push</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/resume/script/main.js" />
+        <option value="$PROJECT_DIR$/resume/index.html" />
+      </list>
+    </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1048" />
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="792" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="leonHomePage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="leonHomePage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="docs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
+          <expand>
+            <path>
+              <item name="leonaries" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leonaries" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\其他\leonaries\leon_files" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -233,52 +120,105 @@
       </list>
     </option>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="74cc0cb5-7a67-4f29-a36f-aaff32e7f130" name="默认" comment="" />
-      <created>1564306378664</created>
+      <changelist id="772e75c3-dc44-4a34-9191-caaa9714e732" name="默认的" comment="" />
+      <created>1536202386303</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1564306378664</updated>
-      <workItem from="1564306379925" duration="6000" />
+      <updated>1536202386303</updated>
+      <workItem from="1536202387841" duration="5657000" />
+      <workItem from="1552398747104" duration="35000" />
+      <workItem from="1552398892547" duration="50000" />
+      <workItem from="1552398958866" duration="48000" />
+      <workItem from="1552399016740" duration="109000" />
+      <workItem from="1555347141273" duration="63000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6000" />
+    <option name="totallyTimeSpent" value="5962000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="792" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13389711" />
+      <window_info id="Structure" order="1" weight="0.24947146" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="找到" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="运行" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="调试" order="13" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="processedProjectFiles" value="true" />
+    <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager />
-    <watches-manager />
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/leon_files/LOGO.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tap/icon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resume/image/banner-bottom-a.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resume/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="2450" column="1" selection-start-line="2450" selection-start-column="1" selection-end-line="2450" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resume/script/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-25181">
+          <caret line="159" column="46" selection-start-line="159" selection-start-column="46" selection-end-line="159" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leon_files/Seffects.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8085">
+          <caret line="539" column="51" selection-start-line="539" selection-start-column="50" selection-end-line="539" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="49" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="49" />
+          <folding>
+            <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resume/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="706" column="43" lean-forward="true" selection-start-line="706" selection-start-column="43" selection-end-line="706" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

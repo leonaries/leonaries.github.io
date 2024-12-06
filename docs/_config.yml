@@ -1,8 +1,8 @@
 title: Leonaries's Blog
 description: Welcome to my personal blog
-baseurl: "" # 对于用户站点，这里应该为空
+baseurl: "" # 保持为空，因为这是用户站点
 url: "https://leonaries.github.io"
-theme: minima # 使用 GitHub Pages 支持的默认主题
+theme: minima
 
 # 基本设置
 markdown: kramdown
@@ -11,3 +11,6 @@ permalink: /:year/:month/:day/:title/
 # 作者信息
 author:
   name: Leonaries
+
+# 指定源目录
+source: docs 

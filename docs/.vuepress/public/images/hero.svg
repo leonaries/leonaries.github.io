@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- 背景 -->
+    <rect width="400" height="300" fill="#f8f9fa"/>
+    
+    <!-- AI中心图形 -->
+    <g transform="translate(100, 50)">
+        <!-- 大脑轮廓 -->
+        <path d="M100,20 C150,20 180,60 180,100 C180,140 150,180 100,180 C50,180 20,140 20,100 C20,60 50,20 100,20" 
+              stroke="#3eaf7c" 
+              stroke-width="3" 
+              fill="none"/>
+        
+        <!-- 神经网络连接 -->
+        <line x1="60" y1="80" x2="140" y2="80" stroke="#3eaf7c" stroke-width="2"/>
+        <line x1="60" y1="120" x2="140" y2="120" stroke="#3eaf7c" stroke-width="2"/>
+        <line x1="100" y1="40" x2="100" y2="160" stroke="#3eaf7c" stroke-width="2"/>
+        
+        <!-- 节点 -->
+        <circle cx="60" cy="80" r="5" fill="#3eaf7c"/>
+        <circle cx="140" cy="80" r="5" fill="#3eaf7c"/>
+        <circle cx="60" cy="120" r="5" fill="#3eaf7c"/>
+        <circle cx="140" cy="120" r="5" fill="#3eaf7c"/>
+        <circle cx="100" cy="40" r="5" fill="#3eaf7c"/>
+        <circle cx="100" cy="160" r="5" fill="#3eaf7c"/>
+    </g>
+    
+    <!-- 装饰性元素 -->
+    <circle cx="50" cy="50" r="20" fill="#3eaf7c" opacity="0.1"/>
+    <circle cx="350" cy="250" r="30" fill="#3eaf7c" opacity="0.1"/>
+    
+    <!-- AI Journey 文字 -->
+    <text x="200" y="250" 
+          font-family="Arial, sans-serif" 
+          font-size="24" 
+          fill="#3eaf7c" 
+          text-anchor="middle">
+        AI Journey
+    </text>
+</svg>

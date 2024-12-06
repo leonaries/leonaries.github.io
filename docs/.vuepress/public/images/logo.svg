@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- 大脑图标背景 -->
+    <circle cx="64" cy="64" r="60" fill="#3eaf7c" opacity="0.1"/>
+    
+    <!-- AI文字 -->
+    <path d="M40 80V48H44L56 72L68 48H72V80H66V56L56 76L46 56V80H40Z" fill="#3eaf7c"/>
+    <path d="M80 80V48H100V54H86V60H98V66H86V74H100V80H80Z" fill="#3eaf7c"/>
+    
+    <!-- 连接线条 -->
+    <circle cx="64" cy="64" r="40" stroke="#3eaf7c" stroke-width="2" fill="none"/>
+    <path d="M44 64C44 52.9543 52.9543 44 64 44C75.0457 44 84 52.9543 84 64" stroke="#3eaf7c" stroke-width="2"/>
+    
+    <!-- 节点 -->
+    <circle cx="44" cy="64" r="4" fill="#3eaf7c"/>
+    <circle cx="84" cy="64" r="4" fill="#3eaf7c"/>
+    <circle cx="64" cy="44" r="4" fill="#3eaf7c"/>
+</svg>

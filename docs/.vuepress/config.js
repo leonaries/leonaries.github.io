@@ -1,6 +1,5 @@
 import { defineUserConfig } from 'vuepress'
 import { defaultTheme } from '@vuepress/theme-default'
-import { searchPlugin } from '@vuepress/plugin-search'
 import { viteBundler } from '@vuepress/bundler-vite'
 
 export default defineUserConfig({
@@ -8,8 +7,13 @@ export default defineUserConfig({
   title: 'AI 猫叔',
   description: '记录AI学习与探索之旅',
   
-  // 指定打包工具
-  bundler: viteBundler(),
+  bundler: viteBundler({
+    viteOptions: {
+      define: {
+        __HMR_CONFIG_NAME__: JSON.stringify('vuepress'),
+      },
+    },
+  }),
   
   theme: defaultTheme({
     logo: '/images/uncle-cat-1.png',
@@ -51,29 +55,11 @@ export default defineUserConfig({
           },
         ],
       },
-      {
-        text: 'AI博主推荐',
-        link: '/creators/',
-      },
     ],
-    
     sidebar: 'auto',
-    
-    // 编辑链接
+    sidebarDepth: 2,
+    lastUpdated: false,
+    contributors: false,
     editLink: false,
-    
-    // 页脚
-    footer: 'MIT Licensed | Copyright 2023-present',
   }),
-  
-  plugins: [
-    searchPlugin({
-      locales: {
-        '/': {
-          placeholder: '搜索',
-        },
-      },
-    }),
-  ],
-  base: '/',
 })

@@ -2,9 +2,9 @@
 home: true
 heroImage: /images/uncle-cat-1.png
 heroText: AI 猫叔
-tagline: 探索AI的无限可能
+tagline: 像猫一样，不断拓展自己对AI的认知边界
 actions:
-  - text: 开始阅读 →
+  - text: 关于我 →
     link: /about/
     type: primary
 features:

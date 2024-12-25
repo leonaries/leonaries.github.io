@@ -1,133 +1,130 @@
-:root {
-  --c-brand: #3eaf7c;
-  --c-brand-light: #4abf8a;
-}
+// Variables
+$content-height: 300px;
+$content-padding: 2rem;
+$content-background: rgba(255, 255, 255, 0.5);
 
-.home .hero img {
-  max-width: 400px !important;
-  display: block;
-  margin: 2rem auto;
-  border-radius: 10px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-  transition: transform 0.3s;
+// 视频容器样式
+.video-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;  // 降低视频容器的层级
   
-  &:hover {
-    transform: translateY(-5px);
-  }
-}
-
-.navbar .site-name {
-  font-weight: 600;
-}
-
-.navbar .logo {
-  height: 2.2rem;
-  min-width: 2.2rem;
-  margin-right: 0.8rem;
-  vertical-align: middle;
-  border-radius: 50%;
-  transition: transform 0.3s;
-  
-  &:hover {
-    transform: scale(1.1);
-  }
-}
-
-.theme-container {
-  .page {
-    .theme-default-content {
-      max-width: 900px;
-    }
-  }
-}
-
-.features {
-  border-top: 1px solid var(--c-border);
-  padding: 2.5rem 0;
-  margin-top: 2.5rem;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  align-content: stretch;
-  justify-content: space-between;
-}
-
-// 页面过渡动画
-.page {
-  transition: transform 0.3s ease;
-}
-
-.slide-left-enter-active,
-.slide-left-leave-active {
-  transition: all 0.3s ease;
-}
-
-.slide-left-enter-from {
-  opacity: 0;
-  transform: translateX(30px);
-}
-
-.slide-left-leave-to {
-  opacity: 0;
-  transform: translateX(-30px);
-}
-
-// 内容淡入效果
-.theme-container {
-  .page {
-    .theme-default-content {
-      animation: fadeIn 0.5s ease-out;
-    }
-  }
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-// 导航栏项目悬停效果
-.navbar .nav-links .nav-item {
-  position: relative;
-  
-  &::after {
+  &::before {
     content: '';
     position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
     bottom: 0;
-    left: 50%;
-    width: 0;
-    height: 2px;
-    background: var(--c-brand);
-    transition: all 0.3s ease;
-    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 1;
   }
   
-  &:hover::after {
+  .background-video {
     width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
 }
 
-// 侧边栏链接动画
-.sidebar-link {
-  transition: color 0.3s ease, padding-left 0.3s ease;
-  
-  &:hover {
-    padding-left: 0.5rem;
+// Home page layout
+.home {
+  position: relative;
+  min-height: 100vh;
+
+  > .theme-default-content {
+    max-width: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    position: relative;
+    z-index: 10;  // 提高内容区域的层级
+  }
+
+  // Left content
+  .hero {
+    position: fixed;
+    left: 2rem;
+    top: calc(50% + 1.8rem);
+    transform: translateY(-50%);
+    width: 25%;
+    height: $content-height;
+    background: $content-background;
+    backdrop-filter: blur(10px);
+    padding: $content-padding;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+    z-index: 20;  // 提高 hero 区域的层级
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    h1, .description {
+      text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      text-align: center;
+      color: white;
+      font-weight: bold;
+    }
+  }
+
+  // Right content
+  .features {
+    position: fixed;
+    right: 2rem;
+    top: calc(50% + 1.8rem);
+    transform: translateY(-50%);
+    width: 25%;
+    height: $content-height;
+    background: $content-background;
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+    padding: $content-padding;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+    z-index: 20;  // 提高 features 区域的层级
+    display: block;
+    overflow-y: auto;
+
+    .feature {
+      padding: 1rem 1.5rem !important;
+      margin-left: 1rem !important;
+      margin-bottom: 1rem !important;
+      
+      h2 {
+        margin-bottom: 0.5rem;
+        font-size: 1.2rem;
+        color: white;
+        font-weight: bold;
+      }
+      
+      p {
+        font-size: 0.9rem;
+        color: white;
+        line-height: 1.6;
+        font-weight: bold;
+      }
+    }
   }
 }
 
-// 搜索框动画
-.search-box input {
-  transition: all 0.3s ease;
-  
-  &:focus {
-    transform: translateY(-1px);
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+// Override default feature styles
+.home .features {
+  .feature {
+    flex: none !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 0 1rem 0 !important;
+    padding: 0 !important;
+    flex-basis: auto !important;
+    flex-grow: 0 !important;
+    flex-shrink: 1 !important;
   }
+}
+
+// 确保其他内容在视频上层
+.theme-container {
+  position: relative;
+  z-index: 1;
 }

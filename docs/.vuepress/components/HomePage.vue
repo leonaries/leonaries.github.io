@@ -3,7 +3,7 @@
     <!-- 背景视频 -->
     <div class="video-container">
       <video class="background-video" autoplay loop muted playsinline preload="auto" @loadeddata="handleVideoLoaded" :class="{ show: videoLoaded }">
-        <source :src="withBase('/videos/background.mp4')" type="video/mp4">
+        <source :src="withBase('/videos/background_compressed.mp4')" type="video/mp4">
       </video>
       <div class="video-placeholder" :class="{ hide: videoLoaded }" :style="{ backgroundImage: `url(${withBase('/images/background.png')})` }"></div>
     </div>

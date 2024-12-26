@@ -1,9 +1,12 @@
 <template>
   <div class="home-page">
     <!-- 背景视频 -->
-    <video class="background-video" autoplay loop muted playsinline>
-      <source :src="withBase('/videos/background.mp4')" type="video/mp4">
-    </video>
+    <div class="video-container">
+      <video class="background-video" autoplay loop muted playsinline preload="auto" @loadeddata="handleVideoLoaded" :class="{ show: videoLoaded }">
+        <source :src="withBase('/videos/background.mp4')" type="video/mp4">
+      </video>
+      <div class="video-placeholder" :class="{ hide: videoLoaded }" :style="{ backgroundImage: `url(${withBase('/images/background.png')})` }"></div>
+    </div>
     
     <!-- 遮罩层 -->
     <div class="overlay"></div>
@@ -30,7 +33,6 @@
           <h2>AI工具</h2>
           <p>精选各类AI工具，包括大语言模型、文本生成、图像生成等</p>
         </div>
-
       </div>
     </div>
   </div>
@@ -38,12 +40,21 @@
 
 <script>
 import { withBase } from '@vuepress/client'
+import { ref } from 'vue'
 
 export default {
   name: 'HomePage',
   setup() {
+    const videoLoaded = ref(false)
+
+    const handleVideoLoaded = () => {
+      videoLoaded.value = true
+    }
+
     return {
-      withBase
+      withBase,
+      videoLoaded,
+      handleVideoLoaded
     }
   }
 }
@@ -61,15 +72,48 @@ export default {
   overflow-x: hidden;
 }
 
-// 背景视频
-.background-video {
+// 视频容器
+.video-container {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover;
   z-index: -2;
+}
+
+// 视频占位图
+.video-placeholder {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 1;
+  transition: opacity 0.5s ease;
+
+  &.hide {
+    opacity: 0;
+  }
+}
+
+// 背景视频
+.background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+
+  &.show {
+    opacity: 1;
+  }
 }
 
 // 遮罩层

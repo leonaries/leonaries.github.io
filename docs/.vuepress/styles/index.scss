@@ -1,7 +1,7 @@
 // Variables
 $content-height: 300px;
 $content-padding: 2rem;
-$content-background: rgba(255, 255, 255, 0.5);
+$content-background: rgba(255, 255, 255, 0.1);
 
 // 视频容器样式
 .video-container {
@@ -10,7 +10,7 @@ $content-background: rgba(255, 255, 255, 0.5);
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: 1;  // 降低视频容器的层级
+  z-index: -1;  // 将视频置于最底层
   
   &::before {
     content: '';
@@ -19,8 +19,8 @@ $content-background: rgba(255, 255, 255, 0.5);
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.3);
-    z-index: 1;
+    background: rgba(0, 0, 0, 0.2);
+    z-index: 0;
   }
   
   .background-video {
@@ -30,17 +30,30 @@ $content-background: rgba(255, 255, 255, 0.5);
   }
 }
 
-// Home page layout
+// 主页样式
 .home {
   position: relative;
   min-height: 100vh;
-
+  background: transparent;
+  
+  &::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.9); 
+    z-index: -1;
+  }
+  
   > .theme-default-content {
     max-width: none !important;
     padding: 0 !important;
     margin: 0 !important;
     position: relative;
-    z-index: 10;  // 提高内容区域的层级
+    z-index: 2;  // 确保内容在视频之上
+    background: transparent;  // 确保内容区域背景透明
   }
 
   // Left content
@@ -56,7 +69,7 @@ $content-background: rgba(255, 255, 255, 0.5);
     padding: $content-padding;
     border-radius: 12px;
     box-shadow: 0 8px 24px rgba(0,0,0,0.1);
-    z-index: 20;  // 提高 hero 区域的层级
+    z-index: 3;  // 提高 hero 区域的层级
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -83,7 +96,7 @@ $content-background: rgba(255, 255, 255, 0.5);
     border-radius: 12px;
     padding: $content-padding;
     box-shadow: 0 8px 24px rgba(0,0,0,0.1);
-    z-index: 20;  // 提高 features 区域的层级
+    z-index: 3;  // 提高 features 区域的层级
     display: block;
     overflow-y: auto;
 
@@ -123,8 +136,53 @@ $content-background: rgba(255, 255, 255, 0.5);
   }
 }
 
-// 确保其他内容在视频上层
+// 视频背景
+.background-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -2;
+}
+
+// 内容区域样式
 .theme-container {
   position: relative;
   z-index: 1;
+}
+
+// 导航栏样式
+.navbar {
+  background: rgba(255, 255, 255, 0.9) !important;
+  backdrop-filter: blur(10px);
+}
+
+// 特性卡片样式
+.features {
+  border-top: none !important;
+  margin: 0 !important;
+  padding: 2rem !important;
+  background: transparent !important;
+  
+  .feature {
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
+    h2 {
+      color: #2c3e50;
+      border-bottom: none;
+      padding-bottom: 0;
+      margin-top: 0;
+    }
+    
+    p {
+      color: #476582;
+    }
+  }
 }

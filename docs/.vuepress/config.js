@@ -13,7 +13,7 @@ const __dirname = getDirname(import.meta.url)
 export default defineUserConfig({
   lang: 'zh-CN',
   title: 'AI 猫叔',
-  description: '记录AI学习与探索之旅',
+  description: '保持像猫一样的好奇心，不断拓宽自己的认知边界',
   
   // 确保包含所有 Markdown 文件
   patterns: ['**/*.md', '!.vuepress', '!node_modules'],
@@ -31,6 +31,12 @@ export default defineUserConfig({
 
   clientConfigFile: path.resolve(__dirname, './client.js'),
   
+  // 配置别名，使组件可以被正确解析
+  alias: {
+    '@theme': path.resolve(__dirname, './theme'),
+    '@components': path.resolve(__dirname, './components'),
+  },
+
   theme: defaultTheme({
     logo: '/images/uncle-cat-1.png',
     navbar: [
@@ -43,7 +49,7 @@ export default defineUserConfig({
         link: '/about/',
       },
       {
-        text: '猫叔感悟',
+        text: '猫叔推荐',
         link: '/thoughts/',
       },
       {

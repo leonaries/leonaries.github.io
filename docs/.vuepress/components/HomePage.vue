@@ -21,18 +21,18 @@
 
       <!-- 特性卡片 -->
       <div class="features">
-        <div class="feature-card">
+        <router-link to="/thoughts/" class="feature-card">
           <h2>猫叔推荐</h2>
           <p>分享AI工具使用心得，助你快速掌握AI技术</p>
-        </div>
-        <div class="feature-card">
+        </router-link>
+        <router-link to="/news/" class="feature-card">
           <h2>AI资讯</h2>
           <p>及时更新AI领域最新动态，深度解读行业趋势</p>
-        </div>
-        <div class="feature-card">
+        </router-link>
+        <router-link to="/tools/llm/" class="feature-card">
           <h2>AI工具</h2>
           <p>精选各类AI工具，包括大语言模型、文本生成、图像生成等</p>
-        </div>
+        </router-link>
       </div>
     </div>
   </div>
@@ -167,10 +167,13 @@ export default {
   border-radius: 8px;
   padding: 2rem;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-decoration: none;
+  cursor: pointer;
 
   &:hover {
     transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
   }
 
   h2 {
